@@ -1,0 +1,17 @@
+# General
+.DS_Store
+# Local configuration file (sdk path, etc)
+local.properties
+
+build/
+.gradle
+.idea
+
+*.xcworkspacedata
+*.xcuserstate
+*.xcscheme
+xcschememanagement.plist
+*.xcbkptlist
+### Kotlin template
+# Compiled class file
+*.class

@@ -1,0 +1,16 @@
+CREATE TABLE CECalculator(
+code TEXT NOT NULL PRIMARY KEY,
+base TEXT NOT NULL,
+name TEXT,
+usdRate REAL,
+conversion REAL
+);
+
+insertItem:
+INSERT OR REPLACE INTO CECalculator(code, base, name,usdRate, conversion)VALUES(?,?,?,?,?);
+
+selectAll:
+SELECT * FROM CECalculator;
+
+deleteAll:
+DELETE FROM CECalculator;
