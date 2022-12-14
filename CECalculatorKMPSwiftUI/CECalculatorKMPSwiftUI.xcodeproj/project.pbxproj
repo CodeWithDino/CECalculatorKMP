@@ -12,8 +12,6 @@
 		0D76CC33293283DD00EEEF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D76CC32293283DD00EEEF3D /* Assets.xcassets */; };
 		0D76CC36293283DD00EEEF3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D76CC35293283DD00EEEF3D /* Preview Assets.xcassets */; };
 		0D76CC40293283DE00EEEF3D /* CurrencyConversionSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76CC3F293283DE00EEEF3D /* CurrencyConversionSwiftUITests.swift */; };
-		0D76CC4A293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76CC49293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.swift */; };
-		0D76CC4C293283DE00EEEF3D /* CurrencyConversionSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D76CC4B293283DE00EEEF3D /* CurrencyConversionSwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +22,16 @@
 			remoteGlobalIDString = 0D76CC2A293283DA00EEEF3D;
 			remoteInfo = CurrencyConversionSwiftUI;
 		};
-		0D76CC46293283DE00EEEF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0D76CC23293283DA00EEEF3D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0D76CC2A293283DA00EEEF3D;
-			remoteInfo = CurrencyConversionSwiftUI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D76CC2B293283DA00EEEF3D /* CurrencyConversionSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConversionSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D76CC2B293283DA00EEEF3D /* CECalculatorKMPSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CECalculatorKMPSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D76CC2E293283DA00EEEF3D /* CurrencyConversionSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionSwiftUIApp.swift; sourceTree = "<group>"; };
 		0D76CC30293283DA00EEEF3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D76CC32293283DD00EEEF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D76CC35293283DD00EEEF3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0D76CC3B293283DE00EEEF3D /* CurrencyConversionSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConversionSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D76CC3B293283DE00EEEF3D /* CECalculatorKMPSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CECalculatorKMPSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D76CC3F293283DE00EEEF3D /* CurrencyConversionSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionSwiftUITests.swift; sourceTree = "<group>"; };
-		0D76CC45293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConversionSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D76CC49293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionSwiftUIUITests.swift; sourceTree = "<group>"; };
-		0D76CC4B293283DE00EEEF3D /* CurrencyConversionSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +49,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D76CC42293283DE00EEEF3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0D76CC22293283DA00EEEF3D = {
 			isa = PBXGroup;
 			children = (
-				0D76CC2D293283DA00EEEF3D /* CurrencyConversionSwiftUI */,
-				0D76CC3E293283DE00EEEF3D /* CurrencyConversionSwiftUITests */,
-				0D76CC48293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests */,
+				0D76CC2D293283DA00EEEF3D /* CECalculatorKMPSwiftUI */,
+				0D76CC3E293283DE00EEEF3D /* CECalculatorKMPSwiftUITests */,
 				0D76CC2C293283DA00EEEF3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,14 +64,13 @@
 		0D76CC2C293283DA00EEEF3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D76CC2B293283DA00EEEF3D /* CurrencyConversionSwiftUI.app */,
-				0D76CC3B293283DE00EEEF3D /* CurrencyConversionSwiftUITests.xctest */,
-				0D76CC45293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.xctest */,
+				0D76CC2B293283DA00EEEF3D /* CECalculatorKMPSwiftUI.app */,
+				0D76CC3B293283DE00EEEF3D /* CECalculatorKMPSwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D76CC2D293283DA00EEEF3D /* CurrencyConversionSwiftUI */ = {
+		0D76CC2D293283DA00EEEF3D /* CECalculatorKMPSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				0D76CC2E293283DA00EEEF3D /* CurrencyConversionSwiftUIApp.swift */,
@@ -99,7 +78,7 @@
 				0D76CC32293283DD00EEEF3D /* Assets.xcassets */,
 				0D76CC34293283DD00EEEF3D /* Preview Content */,
 			);
-			path = CurrencyConversionSwiftUI;
+			path = CECalculatorKMPSwiftUI;
 			sourceTree = "<group>";
 		};
 		0D76CC34293283DD00EEEF3D /* Preview Content */ = {
@@ -110,29 +89,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0D76CC3E293283DE00EEEF3D /* CurrencyConversionSwiftUITests */ = {
+		0D76CC3E293283DE00EEEF3D /* CECalculatorKMPSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
 				0D76CC3F293283DE00EEEF3D /* CurrencyConversionSwiftUITests.swift */,
 			);
-			path = CurrencyConversionSwiftUITests;
-			sourceTree = "<group>";
-		};
-		0D76CC48293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D76CC49293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.swift */,
-				0D76CC4B293283DE00EEEF3D /* CurrencyConversionSwiftUIUITestsLaunchTests.swift */,
-			);
-			path = CurrencyConversionSwiftUIUITests;
+			path = CECalculatorKMPSwiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D76CC2A293283DA00EEEF3D /* CurrencyConversionSwiftUI */ = {
+		0D76CC2A293283DA00EEEF3D /* CECalculatorKMPSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D76CC4F293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUI" */;
+			buildConfigurationList = 0D76CC4F293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CECalculatorKMPSwiftUI" */;
 			buildPhases = (
 				0D76CC27293283DA00EEEF3D /* Sources */,
 				0D76CC28293283DA00EEEF3D /* Frameworks */,
@@ -142,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = CurrencyConversionSwiftUI;
+			name = CECalculatorKMPSwiftUI;
 			productName = CurrencyConversionSwiftUI;
-			productReference = 0D76CC2B293283DA00EEEF3D /* CurrencyConversionSwiftUI.app */;
+			productReference = 0D76CC2B293283DA00EEEF3D /* CECalculatorKMPSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D76CC3A293283DE00EEEF3D /* CurrencyConversionSwiftUITests */ = {
+		0D76CC3A293283DE00EEEF3D /* CECalculatorKMPSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D76CC52293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUITests" */;
+			buildConfigurationList = 0D76CC52293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CECalculatorKMPSwiftUITests" */;
 			buildPhases = (
 				0D76CC37293283DE00EEEF3D /* Sources */,
 				0D76CC38293283DE00EEEF3D /* Frameworks */,
@@ -160,28 +130,10 @@
 			dependencies = (
 				0D76CC3D293283DE00EEEF3D /* PBXTargetDependency */,
 			);
-			name = CurrencyConversionSwiftUITests;
+			name = CECalculatorKMPSwiftUITests;
 			productName = CurrencyConversionSwiftUITests;
-			productReference = 0D76CC3B293283DE00EEEF3D /* CurrencyConversionSwiftUITests.xctest */;
+			productReference = 0D76CC3B293283DE00EEEF3D /* CECalculatorKMPSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0D76CC44293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D76CC55293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUIUITests" */;
-			buildPhases = (
-				0D76CC41293283DE00EEEF3D /* Sources */,
-				0D76CC42293283DE00EEEF3D /* Frameworks */,
-				0D76CC43293283DE00EEEF3D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0D76CC47293283DE00EEEF3D /* PBXTargetDependency */,
-			);
-			name = CurrencyConversionSwiftUIUITests;
-			productName = CurrencyConversionSwiftUIUITests;
-			productReference = 0D76CC45293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +152,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 0D76CC2A293283DA00EEEF3D;
 					};
-					0D76CC44293283DE00EEEF3D = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 0D76CC2A293283DA00EEEF3D;
-					};
 				};
 			};
-			buildConfigurationList = 0D76CC26293283DA00EEEF3D /* Build configuration list for PBXProject "CurrencyConversionSwiftUI" */;
+			buildConfigurationList = 0D76CC26293283DA00EEEF3D /* Build configuration list for PBXProject "CECalculatorKMPSwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D76CC2A293283DA00EEEF3D /* CurrencyConversionSwiftUI */,
-				0D76CC3A293283DE00EEEF3D /* CurrencyConversionSwiftUITests */,
-				0D76CC44293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests */,
+				0D76CC2A293283DA00EEEF3D /* CECalculatorKMPSwiftUI */,
+				0D76CC3A293283DE00EEEF3D /* CECalculatorKMPSwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0D76CC39293283DE00EEEF3D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0D76CC43293283DE00EEEF3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,27 +210,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D76CC41293283DE00EEEF3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D76CC4A293283DE00EEEF3D /* CurrencyConversionSwiftUIUITests.swift in Sources */,
-				0D76CC4C293283DE00EEEF3D /* CurrencyConversionSwiftUIUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		0D76CC3D293283DE00EEEF3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D76CC2A293283DA00EEEF3D /* CurrencyConversionSwiftUI */;
+			target = 0D76CC2A293283DA00EEEF3D /* CECalculatorKMPSwiftUI */;
 			targetProxy = 0D76CC3C293283DE00EEEF3D /* PBXContainerItemProxy */;
-		};
-		0D76CC47293283DE00EEEF3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0D76CC2A293283DA00EEEF3D /* CurrencyConversionSwiftUI */;
-			targetProxy = 0D76CC46293283DE00EEEF3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,7 +345,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConversionSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CECalculatorKMPSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -433,7 +359,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dk.currency.exchange.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CECalculatorKMPSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,7 +374,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConversionSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CECalculatorKMPSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +388,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.dk.currency.exchange.ios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CECalculatorKMPSwiftUI;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +410,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyConversionSwiftUI.app/CurrencyConversionSwiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CECalculatorKMPSwiftUI.app/CECalculatorKMPSwiftUI";
 			};
 			name = Debug;
 		};
@@ -503,48 +429,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyConversionSwiftUI.app/CurrencyConversionSwiftUI";
-			};
-			name = Release;
-		};
-		0D76CC56293283DE00EEEF3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.dk.currency.exchange.CurrencyConversionSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyConversionSwiftUI;
-			};
-			name = Debug;
-		};
-		0D76CC57293283DE00EEEF3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.dk.currency.exchange.CurrencyConversionSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CurrencyConversionSwiftUI;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CECalculatorKMPSwiftUI.app/CECalculatorKMPSwiftUI";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D76CC26293283DA00EEEF3D /* Build configuration list for PBXProject "CurrencyConversionSwiftUI" */ = {
+		0D76CC26293283DA00EEEF3D /* Build configuration list for PBXProject "CECalculatorKMPSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D76CC4D293283DE00EEEF3D /* Debug */,
@@ -553,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D76CC4F293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUI" */ = {
+		0D76CC4F293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CECalculatorKMPSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D76CC50293283DE00EEEF3D /* Debug */,
@@ -562,20 +454,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D76CC52293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUITests" */ = {
+		0D76CC52293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CECalculatorKMPSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D76CC53293283DE00EEEF3D /* Debug */,
 				0D76CC54293283DE00EEEF3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D76CC55293283DE00EEEF3D /* Build configuration list for PBXNativeTarget "CurrencyConversionSwiftUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D76CC56293283DE00EEEF3D /* Debug */,
-				0D76CC57293283DE00EEEF3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
